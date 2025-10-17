@@ -1,0 +1,22 @@
+[mainnet]
+endpoint_url = "${MAINNET_RPC_URL}"
+
+[mainnet.address]
+verifierSigner = "${VERIFIER_SIGNER_MAINNET}"
+priceFeed = "0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419"
+
+[sepolia]
+endpoint_url = "${SEPOLIA_RPC_URL}"
+
+[sepolia.address]
+verifierSigner = "${VERIFIER_SIGNER_SEPOLIA}"
+priceFeed = "0x694AA1769357215DE4FAC081bf1f309aDC325306"
+
+[base-sepolia]
+endpoint_url = "${BASE_SEPOLIA_RPC_URL}"
+
+[base-sepolia.address]
+verifierSigner = "${VERIFIER_SIGNER_BASE_SEPOLIA}"
+priceFeed = "0x4aDC67696bA383F43DD60A9e78F2C97Fbbfc7cb1"
+alarm_contract = "0x08E73f17b481eC5616E4E91D4FB26A5FA1322a93"
+phone_lock_contract = "0xa931879E7e0a1D7B0d9f00aac27011652bF6cD8f"
